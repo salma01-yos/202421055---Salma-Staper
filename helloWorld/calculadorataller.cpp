@@ -21,13 +21,14 @@ double divideNumbers(int inputValue1, int inputValue2)
 
 int getMax (int inputValue1, int inputValue2)
 {
+   
     if (inputValue1 > inputValue2)
 
     {
         cout << inputValue1 << "es mayor que " << inputValue2 << endl;
     }
 
-    else (inputValue2> inputValue1);
+    else
     {
         cout << inputValue2 << "es mayor que " << inputValue1 << endl; 
     } 
