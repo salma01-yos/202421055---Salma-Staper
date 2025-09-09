@@ -5,19 +5,17 @@ using namespace std;
 int main () {
     // int i=0
     // i<10 hasta que se deje 
-   int userNumber;
-   int i; 
+ int mulResult
 
-   cout << "Ingrese un numero: ";
-   cin >> userNumber;
-
-   for (i = 0; i <= 10; i++)
+   for (int i = 1; i <= 10; i++)
    {
-        int multiplicationResult = userNumber * i;
-        cout << userNumber << " * " << i << " = " << endl;
+      for (int j = 1; j < 5; j++)
+      {
+        int mulResult= i*j;
+        
+      }
    }
    
-
-    
+    cout << i << " * " << j << " = " << mulResult << endl
     return 0;
 }

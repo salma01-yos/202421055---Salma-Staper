@@ -7,8 +7,7 @@ int main () {
     int sumResult, subResult, multiplyResult, divisionResult, moduleResult;
     // 1= suma, 2= resta, 3= multiplicación, 4= división, 5=módulo;
     int selectedOperation; 
-
-    cout << "Bienvenido" << endl;
+    
     cout << "Ingrese el primer valor: ";
     cin >> inputValue1;
     cout << "Ingrese el segundo valor: ";
