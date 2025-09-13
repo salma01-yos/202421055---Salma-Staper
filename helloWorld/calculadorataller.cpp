@@ -16,7 +16,7 @@ double divideNumbers(int inputValue1, int inputValue2)
         {
             cout << "Error Error, verifique el divisor" << endl;
          }
-         return divisionNumbers; 
+        return divisionNumbers; 
 }
 
 int getMax (int inputValue1, int inputValue2)
@@ -85,7 +85,7 @@ int main ()
         cout << square << endl; 
     }
 
-    else if (selectedOperation == 6)
+    else (selectedOperation == 6);
     {
         cout << getMax << endl; 
     }
