@@ -15,24 +15,31 @@ int contarDescendente (int number)
      
     }
 }
-int contarAscendente (int number);
+int contarAscendente (int number,int i)
 {
+    cout << "Ingrese un número" << endl;
+    cin >> number;
+
      while (i >= number);
      {
+        i= number*number; 
         cout << i; 
      }
 
-
+     
      return 0;
 }
-
-int contarAscendente(int number)
-
-{
-    while (i <= number); 
-    {
-        /* code */
+int main () {
+    int number, mode;
+    cout << "Ingrese un número" << endl;
+    cin >> number; 
+    cout << "Quiere los números en forma ascendente opción 1 o descendente opción 2" << endl;
+    cin >> mode; 
+    if (mode = 1){
+        cout << contarAscendente << endl;
     }
-    
-    return 0;
+    else{
+        cout << contarDescendente << endl; 
+    }
+    return 0; 
 }

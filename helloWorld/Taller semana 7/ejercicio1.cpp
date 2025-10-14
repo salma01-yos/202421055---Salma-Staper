@@ -8,7 +8,7 @@ int main ()
     string userName;
     double userStature; 
 
-    cout << "Ingrese su nombre" << endl;
+    cout << "Ingrese su nombre en mayúscula sostenida" << endl;
     cin >> userName; 
 
     cout << "Ingrese su edad" << endl; 
